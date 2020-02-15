@@ -1,6 +1,6 @@
 {
   "name": "jest-ci",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CLI for Jest test framework, but coverage only on first CI job",
   "keywords": [
     "jest",
