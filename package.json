@@ -1,8 +1,11 @@
 {
   "name": "jest-ci",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "CLI for Jest test framework, but coverage only on first CI job",
+  "keywords": [
+    "jest",
+    "ci"
+  ],
   "bin": "./bin.js",
   "engines": {
     "node": ">=8.0.0"
@@ -60,7 +63,10 @@
     ],
     "dictionary": [
       "Versioning",
-      "CI"
+      "CI",
+      "CLI",
+      "JS",
+      "js"
     ]
   }
 }
