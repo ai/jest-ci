@@ -3,5 +3,7 @@
 let ciJobNumber = require('ci-job-number')
 
 if (ciJobNumber() !== 1) {
-  process.exit()
+  process.argv = process.argv.filter(i => i !== '--coverage')
 }
+
+require('jest-cli/bin/jest')
