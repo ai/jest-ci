@@ -14,7 +14,7 @@
     "test": "eslint . && yaspeller *.md"
   },
   "dependencies": {
-    "ci-job-number": "^0.3.1"
+    "ci-job-number": "^1.0.0"
   },
   "peerDependencies": {
     "jest": ">= 0.0.0"
@@ -24,7 +24,7 @@
   "repository": "ai/jest-ci",
   "devDependencies": {
     "@logux/eslint-config": "^36.0.0",
-    "clean-publish": "^1.1.4",
+    "clean-publish": "^1.1.5",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
